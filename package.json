@@ -1,0 +1,29 @@
+{
+  "name": "scoreboard",
+  "version": "0.0.0",
+  "description": "Simple scoreboard using Johnny-Five",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/scottgonzalez/scoreboard.git"
+  },
+  "keywords": [
+    "scoreboard",
+    "johnny-five"
+  ],
+  "author": {
+    "name": "Scott González",
+    "email": "scott.gonzalez@gmail.com",
+    "url": "http://scottgonzalez.com"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/scottgonzalez/scoreboard/issues"
+  },
+  "homepage": "https://github.com/scottgonzalez/scoreboard",
+  "dependencies": {
+    "johnny-five": "^0.8.85",
+    "shift-seven": "^1.0.0",
+    "simple-game": "^1.0.0"
+  }
+}

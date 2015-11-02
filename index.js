@@ -13,7 +13,9 @@ board.on("ready", function() {
 					clock: 3,
 					latch: 4
 				}
-			})
+			}),
+			addPoint: new five.Button(13),
+			removePoint: new five.Button(12)
 		}),
 
 		new SimpleGame.Player({
@@ -23,15 +25,11 @@ board.on("ready", function() {
 					clock: 9,
 					latch: 10
 				}
-			})
+			}),
+			addPoint: new five.Button(7),
+			removePoint: new five.Button(6)
 		})
 	];
-
-	players[0].setOption("addPoint", new five.Button(13));
-	players[0].setOption("removePoint", new five.Button(12));
-
-	players[1].setOption("addPoint", new five.Button(7));
-	players[1].setOption("removePoint", new five.Button(6));
 
 	var game = new SimpleGame.Game({
 		maxPoints: 7
